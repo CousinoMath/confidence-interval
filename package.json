@@ -1,0 +1,21 @@
+{
+  "name": "@cousinomath/confidence-intervals",
+  "version": "0.0.0",
+  "description": "A page demonstrating the meaning of confidence in confidence intervals.",
+  "browser": "./dist/index.html",
+  "author": "Andrew Cousino <cousinomath@gmail.com> (https://cousinomath.website/)",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "css": "compass compile"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.3",
+    "webpack": "^4.34.0",
+    "webpack-cli": "^3.3.4"
+  },
+  "dependencies": {
+    "jStat": "^1.8.5"
+  }
+}

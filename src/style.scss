@@ -1,0 +1,26 @@
+@import "compass/reset";
+@import "base";
+
+h1 {
+    font: xx-large/1.5 sans-serif;
+    text-align: center;
+}
+
+.math {
+    font-family: math;
+}
+
+fieldset {
+    width: 20em;
+    padding: 1em 0 0 1.25em;
+}
+
+#canvas {
+    border: black 1px;
+    width: 20em;
+    height: 20em;
+}
+
+small {
+    font-size: smaller;
+}

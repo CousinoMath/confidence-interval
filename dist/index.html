@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Confidence Intervals</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link href="style.css" media="screen, projection, print" rel="stylesheet" type="text/css">
+    <script src="jstat.min.js"></script>
+</head>
+<body>
+    <header role="banner">
+        <h1>Confidence Intervals</h1>
+        <!--<nav role="navigation"></nav>-->
+    </header>
+    <div id="wrapper">
+        <main id="main" role="main">
+            <form>
+                <fieldset>
+                    <label for="confidenceLevel">Confidence Level:</label>
+                    <input type="number" name="confidenceLevel" id="confidenceLevel" min="1" max="99.9" step="0.1"
+                        value="90.0">%
+                    <br>
+                    <label for="sigma">&sigma; =</label>
+                    <input type="number" name="sigma" id="sigma" class="math" min="0.01" step="0.01" value="150.0">
+                    <br>
+                    <label for="sampleSize">n =</label>
+                    <input type="number" name="sampleSize" id="sampleSize" class="math" value="20" min="1" step="1">
+                    <br>
+                </fieldset>
+            </form>
+            <div id="confidenceIntervals">
+                <canvas id="canvas">
+                </canvas>
+            </div>
+        </main>
+    </div>
+    <section>
+        <p>This page demonstrates the meaning of
+            &ldquo;confidence&rdquo; in confidence intervals. Above,
+            you&rsquo;ll see 100 confidence intervals
+            constructed from 100 random sample means. They are
+            plotted, along with the population mean &mu; (which is
+            zero for simplicity&rsquo;s sake). The number of
+            intervals that contain the true population mean is
+            roughly the confidence level.
+        </p>
+    </section>
+    <footer>
+        <small>Copyright &copy;2019
+            <a href="https://cousinomath.website/">Andrew Cousino</a>
+        </small>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

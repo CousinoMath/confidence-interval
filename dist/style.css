@@ -91,3 +91,19 @@ fieldset {
 small {
   font-size: smaller;
 }
+
+/* line 28, ../src/style.scss */
+em {
+  font-style: italic;
+}
+
+/* line 32, ../src/style.scss */
+div.input {
+  display: table-row;
+  vertical-align: middle;
+}
+
+/* line 37, ../src/style.scss */
+div.input * {
+  vertical-align: middle;
+}

@@ -24,3 +24,21 @@ fieldset {
 small {
     font-size: smaller;
 }
+
+em {
+    font-style: italic;
+}
+
+div.input {
+    display: table-row;
+    vertical-align: middle;
+}
+
+div.input * {
+    vertical-align: middle;
+}
+
+footer {
+    margin-top: 1em;
+    border-top: 1px black solid;
+}

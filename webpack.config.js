@@ -12,7 +12,7 @@ module.exports = {
     },
     plugins: [
         new CopyPlugin([
-            { from: './node_modules/jStat/dist/jstat.min.js', to: './dist/' },
+            { from: './node_modules/jStat/dist/jstat.min.js', to: '.' },
         ])
     ],
 }
